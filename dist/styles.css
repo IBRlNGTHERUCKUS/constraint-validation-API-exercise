@@ -9,12 +9,13 @@ main {
     display: flex;
     flex-direction: column;
     padding: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .signup { 
     background-color: rgb(244, 246, 247);
-    padding: 12vw;
-    padding-top: 10px;
+    padding: 10px 12vw;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -23,8 +24,8 @@ main {
     max-width: 500px;
 }
 
-.signup h2 {
-    text-align: center;;
+.signup h2, .signup p {
+    text-align: center;
 }
 
 .input-wrapper {
