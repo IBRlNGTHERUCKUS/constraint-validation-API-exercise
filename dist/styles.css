@@ -33,7 +33,7 @@ main {
     align-items: center;
 }
 
-.signup input {
+.signup input, .signup select {
     height: 40px;
     width: 100%;
     border-radius: 10px;
@@ -77,6 +77,11 @@ main {
     width: 100px;
     align-self: center;
     transform: translateY(12px);
+}
+
+.select-wrapper {
+    display: flex;
+    align-items: center;
 }
 
 /* Mobile */
